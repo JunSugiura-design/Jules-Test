@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lumière Boulangerie</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&family=Lato:wght@300;400;700&family=Noto+Serif+JP:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container header-container">
+            <a href="#" class="logo">Lumière</a>
+            <button class="mobile-menu-btn" aria-label="Menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </button>
+            <nav class="nav">
+                <ul class="nav-list">
+                    <li><a href="#hero" class="nav-link">Home</a></li>
+                    <li><a href="#about" class="nav-link">About</a></li>
+                    <li><a href="#menu" class="nav-link">Menu</a></li>
+                    <li><a href="#contact" class="nav-link">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section id="hero" class="hero">
+            <div class="hero-overlay"></div>
+            <div class="hero-content">
+                <h1>Artisan Breads,<br>Timeless Taste</h1>
+                <p>Experience the finest French baking tradition in the heart of the city.</p>
+                <a href="#menu" class="btn btn-primary">View Menu</a>
+            </div>
+        </section>
+
+        <section id="about" class="section about">
+            <div class="container about-container">
+                <div class="about-text">
+                    <h2 class="section-title">Our Philosophy</h2>
+                    <p>At Lumière, we believe that bread is the soul of a meal. Using only the finest organic flour, natural leaven, and time-honored techniques, we bake fresh every morning to bring you the warmth of tradition.</p>
+                    <p>Founded in 1985, our bakery has been a gathering place for community and connoisseurs alike. We strive to balance modern innovation with the classic art of boulangerie.</p>
+                </div>
+                <div class="about-image">
+                    <img src="https://images.unsplash.com/photo-1509440159596-0249088772ff?q=80&w=800&auto=format&fit=crop" alt="Baker kneading dough">
+                </div>
+            </div>
+        </section>
+
+        <section id="menu" class="section menu">
+            <div class="container">
+                <h2 class="section-title text-center">Featured Creations</h2>
+                <p class="section-subtitle text-center">Handcrafted with passion</p>
+                <div class="menu-grid">
+                    <div class="menu-item">
+                        <div class="menu-img">
+                            <img src="https://images.unsplash.com/photo-1585478259715-876acc5be8eb?q=80&w=600&auto=format&fit=crop" alt="Classic Baguette">
+                        </div>
+                        <div class="menu-info">
+                            <h3>Classic Baguette</h3>
+                            <p class="price">¥350</p>
+                            <p class="desc">Crispy crust, airy crumb. A French staple.</p>
+                        </div>
+                    </div>
+                    <div class="menu-item">
+                        <div class="menu-img">
+                            <img src="https://images.unsplash.com/photo-1555507036-ab1f4038808a?q=80&w=600&auto=format&fit=crop" alt="Croissant">
+                        </div>
+                        <div class="menu-info">
+                            <h3>Butter Croissant</h3>
+                            <p class="price">¥280</p>
+                            <p class="desc">Rich, buttery layers that melt in your mouth.</p>
+                        </div>
+                    </div>
+                    <div class="menu-item">
+                        <div class="menu-img">
+                            <img src="https://images.unsplash.com/photo-1550617931-e17a7b70dce2?q=80&w=600&auto=format&fit=crop" alt="Sourdough Loaf">
+                        </div>
+                        <div class="menu-info">
+                            <h3>Rustic Sourdough</h3>
+                            <p class="price">¥800</p>
+                            <p class="desc">Naturally leavened with a robust tangy flavor.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="text-center mt-4">
+                     <a href="#" class="btn btn-secondary">See All Products</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="section contact">
+            <div class="container contact-container">
+                <div class="contact-info">
+                    <h2 class="section-title">Visit Us</h2>
+                    <p>123 Bakery Street, Food District, Tokyo</p>
+                    <p>Open Daily: 7:00 AM - 8:00 PM</p>
+                    <p>Tel: 03-1234-5678</p>
+                </div>
+                <div class="contact-form-wrapper">
+                     <h3>Newsletter</h3>
+                     <p>Subscribe for latest news and seasonal specials.</p>
+                     <form class="newsletter-form">
+                         <input type="email" placeholder="Your email address" required>
+                         <button type="submit" class="btn btn-primary">Subscribe</button>
+                     </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container footer-content">
+            <div class="footer-logo">Lumière</div>
+            <div class="social-links">
+                <a href="#" aria-label="Instagram">IG</a>
+                <a href="#" aria-label="Facebook">FB</a>
+                <a href="#" aria-label="Twitter">X</a>
+            </div>
+            <p class="copyright">&copy; 2024 Lumière Boulangerie. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="js/script.js" defer></script>
+</body>
+</html>
